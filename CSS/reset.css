@@ -1,0 +1,11 @@
+/* Reset de formatação */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-size: em;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", Helvetica, sans-serif;
+    background: rgb(255, 255, 255);
+  }

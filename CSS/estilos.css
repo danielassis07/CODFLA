@@ -1,0 +1,208 @@
+/*************\
+* MODO ESCURO *
+\*************/
+
+body.modo-escuro {
+  background-color: black;
+  color: white;
+}
+
+.modo-escuro .area-menu {
+  background-color: rgba(0, 0, 0, 0.894);
+}
+
+header {
+  background-color: transparent;
+  display: contents;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+}
+
+header .logo,
+header .imagem-botao {
+  width: 100px;
+  transition: 0.7s ease-in-out;
+}
+
+header #botao-temafla {
+  background-color: transparent;
+  border: none;
+}
+
+/*************\
+*  CABEÇALHO  *
+\*************/
+
+#area-cabecalho {
+  background-color: #880101e3;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+#area-logo,
+#area-menu {
+  padding: 25px;
+}
+
+/*************\
+*   TITULO    *
+\*************/
+h1 {
+  color: black;
+  font-size: 2.5em;
+}
+
+h2 {
+  color: red;
+  font-size: 2.5em;
+}
+
+h3 {
+  color: black;
+  padding: 5px;
+  width: 610px;
+}
+
+/*************\
+*     MENU    *
+\*************/
+
+#area-cabecalho a:link,
+#area-cabecalho a:visited {
+  color: #fff;
+  padding: 5px 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*************\
+*   POSTAGEM  *
+\*************/
+#area-principal {
+  background: rgba(255, 0, 0, 0.226);
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#area-postagens {
+  width: 650px;
+  float: left;
+}
+
+.data-postagem {
+  font-size: 1em;
+  border-bottom: 5px solid black;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+a:link,
+a:visited {
+  color: white;
+}
+
+.postagem,
+p {
+  margin: 15px auto;
+}
+
+.postagem {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: hsla(0, 99%, 38%, 0.89);
+}
+
+/*************\
+*    RODAPÉ   *
+\*************/
+#rodape {
+  clear: both;
+  text-align: center;
+  padding: 20px;
+  background: silver;
+}
+
+
+/*************\
+* ELENCOMETRO  *
+\*************/
+
+#area-principal-elencometro {
+  background: rgba(255, 0, 0, 0.226);
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#area-postagens-elencometro {
+  width: 1830px;
+  float: left;
+}
+
+.postagem-elencometro,
+p {
+  margin: 15px auto;
+}
+
+.postagem-elencometro {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: hsla(0, 99%, 38%, 0.89);
+}
+
+/*************\
+* ESTATISTICAS *
+\*************/
+
+#area-principal-estatisticas {
+  background: rgba(255, 0, 0, 0.226);
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#area-postagens-estatisticas {
+  width: 1830px;
+  float: left;
+}
+
+.postagem-estatisticas,
+p {
+  margin: 15px auto;
+}
+
+.postagem-estatisticas {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: hsla(0, 99%, 38%, 0.89);
+}
+
+/*************\
+* PROJEÇÕES *
+\*************/
+
+#area-principal-projecoes {
+  background: rgba(255, 0, 0, 0.226);
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#area-postagens-projecoes {
+  width: 1830px;
+  float: left;
+}
+
+.postagem-projecoes,
+p {
+  margin: 15px auto;
+}
+
+.postagem-projecoes {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: hsla(0, 99%, 38%, 0.89);
+}
